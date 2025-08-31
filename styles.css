@@ -1,0 +1,188 @@
+/* BODY */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* NAVBAR */
+
+.custom-navbar {
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-nav .nav-item:not(:last-child) {
+    margin-right: 80px;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #111 !important;
+    font-weight: 500;
+    line-height: 1;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    min-width: 100px;
+}
+
+.custom-navbar .navbar-brand {
+    text-align: center;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #111 !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-brand .font-weight-bold {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.navbar-brand .subtitle {
+    font-weight: normal;
+    font-size: 15px;
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif !important;
+    background-color: yellow !important;
+    opacity: 0;
+}
+
+
+
+/* HEADER */
+
+header {
+    background-color: #fff;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    height: 500px;
+    overflow: hidden; /* Hide overflow if images are larger */
+}
+
+.case-gallery {
+    display: flex;
+    width: 100%;
+    height: 100%; /* Occupy full height of the header */
+}
+
+.case-gallery a {
+    flex: 1; /* Each image takes equal width */
+    display: flex;
+    overflow: hidden;
+}
+
+.case-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the area without distortion */
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.case-gallery img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
+}
+
+header h1 {
+    font-size: 4em;
+    color: #111;
+    font-weight: light;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #111;
+    max-width: 2000px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #ffffff;
+    color: #000;
+    font-size: 0.8em;
+    padding: 50px 20px 0px 20px; /* Add padding to the footer */
+    overflow: hidden;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover {
+    color: #119c9c;
+}
+
+.fixed-footer {
+}
+
+.footer-text {
+    font-size: 22px;
+    float: left;
+    margin-left: 20px;
+}
+
+.footer-contact-info {
+    float: right;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.footer-contact-info div a i {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.linkedin-icon {
+    margin-right: 10px;
+}
+
+.whatsapp-icon {
+    margin-right: 10px;
+}
+
+.email-icon {
+    margin-right: 10px;
+}
+
+.gui-minoti-style {
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 25px;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 0;
+    clear: both;
+    line-height: 1;
+    padding: 0;
+}

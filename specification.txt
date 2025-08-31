@@ -1,0 +1,88 @@
+*** // HTML Tags used \ ***
+
+<html>
+<head>
+<body>
+<title>
+
+1. <meta>
+2. <link>
+3. <style>
+4. <nav>
+5. <a>
+6. <p>
+7. <h1>
+8. <br>
+9. <tr>
+10. <td>
+11. <em>
+12. <div>
+13. <strong>
+14. <script>
+15. <footer>
+
+
+
+*** // CSS Properties used \***
+
+1.
+/* BODY */
+body {
+    display
+    flex-direction
+    min-height
+    margin
+    justify-content
+}
+
+2.
+/* NAVBAR */
+.custom-navbar {
+    font-size
+    padding-top
+    padding-bottom
+    transition
+    box-shadow
+}
+
+3.
+/* HEADER */
+header {
+    background-color
+    padding
+    flex-direction
+    justify-content
+    align-items
+}
+
+4.
+header p {
+    font-size
+    color
+    max-width
+    text-align
+    line-height
+}
+
+5.
+/* FOOTER */
+footer {
+    background-color
+    color
+    font-size
+    text-align
+    margin-top
+}
+
+
+
+*** // JavaScript Choice \***
+
+I chose to use a simple JavaScript "Welcome to my portfolio website!" alert at this point, to understand how it works.
+
+
+
+
+*** // Bootstrap Choice \***
+
+I chose to use Bootstrap settings that help with the site's responsiveness styles and maintain simplicity and readability.
